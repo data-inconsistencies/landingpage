@@ -1,3 +1,19 @@
+# landing page
+
+## prerequisites
+
+- installation of hugo
+
+## content creation
+
+```bash
+hugo serve --buildDrafts --buildFuture
+```
+
+
+
+default readme below
+
 # [Hugo Landing Page Theme](https://github.com/HugoBlox/theme-landing-page)
 
 [![Screenshot](https://raw.githubusercontent.com/HugoBlox/theme-landing-page/main/.github/preview.webp)](https://hugoblox.com/templates/)

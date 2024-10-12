@@ -6,15 +6,23 @@ main:
   - name: Home
     url: /#top
     weight: 10
-  - name: Features
-    url: /#features
-    weight: 20
-  - name: Solutions
-    url: /#solutions
-    weight: 30
-  - name: Resources
-    weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
+  - name: Videos
+    # TODO migrate to youtube.data-inconsistencies.datajourney.expert once set up properly
+    url: https://www.youtube.com/@datainconsistencies/
+    #url: /#features
+  - name: Inconsistencies in data
+    url: /#datainconsistencies
+  #- name: Features
+  #  url: /#features
+  #  weight: 20
+  #- name: Solutions
+  #  url: /#solutions
+  #  weight: 30
+  #- name: Resources
+  #  weight: 40
+  #  hasChildren: true
+  - name: Blog
     url: blog/
+  #- parent: Resources
+  #  name: Blog
+  #  url: blog/
