@@ -1,5 +1,7 @@
 # landing page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80679577-72df-4ad4-8c4d-aacd885c6ae9/deploy-status)](https://app.netlify.com/projects/data-inconsistencies-landingpage/deploys)
+
 ## prerequisites
 
 - docker desktop or some other oci compliant runtime which understands docker compose
