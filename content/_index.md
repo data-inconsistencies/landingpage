@@ -85,24 +85,41 @@ sections:
             text: Connect
             url: https://www.linkedin.com/in/geoheil/
   - block: cta-image-paragraph
-    id: datainconsistencies
+    id: rankingsoverview
     content:
       items:
-        - title: Elements of a data platform
-          text: Storage, compute, pipelines and metadata
+        - title: ELO ranking
+          text: Compare the otherwise really hard to compare performance
           feature_icon: check
           features:
-            - Compute (SQL)
-            - Data Orchestrator
-            - Data catalog
-            - Data Table format
-            - Data Storage
+            - Plain ELO for binary rankings
+            - Enhanced R-ELO for multi-class rankings
+            - Matches as observations
+            - We can compare the results from benchmarks from all over the web
           # Upload image to `assets/media/` and reference the filename here
-          image: data-inconsistencies-logo.jpg
+          image: ranking-overall.png
           button:
             text: See the rankings
             url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
-        # - title: Large Community
+  # - block: cta-image-paragraph
+  #   id: datainconsistencies
+  #   content:
+  #     items:
+  #       - title: Elements of a data platform
+  #         text: Storage, compute, pipelines and metadata
+  #         feature_icon: check
+  #         features:
+  #           - Compute (SQL)
+  #           - Data Orchestrator
+  #           - Data catalog
+  #           - Data Table format
+  #           - Data Storage
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: data-inconsistencies-logo.jpg
+  #         button:
+  #           text: See the rankings
+  #           url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
+  #       # - title: Large Community
         #   text: Join our large community on Discord - ask questions and get live responses
         #   feature_icon: bolt
         #   features:
