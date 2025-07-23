@@ -1,0 +1,13 @@
+services:
+  hugo:
+    image: hugomods/hugo:ci-0.136.5
+    container_name: hugo_dev
+    working_dir: /src
+    command: >
+      hugo serve --bind 0.0.0.0 --port 1313 --buildDrafts --buildFuture
+    volumes:
+      - ./:/src
+    ports:
+      - "1313:1313"
+    environment:
+      HUGO_ENV: "development"

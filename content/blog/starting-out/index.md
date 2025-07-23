@@ -9,7 +9,7 @@ image:
 
 authors:
   - geoheil
-  - albert Wong
+  - alberttwong
 
 tags:
   - data-architecture

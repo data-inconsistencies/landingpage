@@ -5,7 +5,7 @@
 
 # Appearance
 appearance:
-  mode: dark
+  mode: light
   color: green
 
 # SEO
@@ -39,8 +39,8 @@ header:
       filename: "data-inconsistencies-logo.jpg"
     button:
       enable: true
-      text: "Explore landscape"
-      url: "https://landscape.data-inconsistencies.datajourney.expert/"
+      text: "Get Scores"
+      url: "https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA"
     show_search: true
     show_theme_chooser: true
 

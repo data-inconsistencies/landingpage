@@ -22,7 +22,7 @@ organizations:
   url: "https://viennadatasciencegroup.at/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Tackling complex data challenges with impact.
+bio: Solving challenges with data.
 
 interests:
 - Geo-spatial analytics
@@ -30,6 +30,7 @@ interests:
 - Network analytics
 - Large and fast data
 - Responsible AI
+- Knowledge graphs
 
 education:
   courses:
@@ -79,8 +80,4 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-**Senior data expert**. Georg specializes in working with large-scale spatio-temporal graph data, focusing on an end-to-end view of data pipelines and holistic data architecture. As an experienced engineer, he has delivered impactful solutions in fraud detection, mobility analytics, and predictive maintenance in cable networks. As an architect he is working on transitioning the data platform of Magenta to the cloud. 
-
-During his doctoral studies, Georg researched inferring supply networks and analyzed the societal impact of government interventions during the COVID-19 pandemic using mobility data. He shares his enthusiasm for data as a lecturer on data science and big data, inspiring up-and-coming data talents. Additionally, Georg is an active speaker and organizer at meetups, contributing to the growth of the data science community.
-
-Outside of his professional life, Georg enjoys rowing and hiking in the mountains, reflecting his love for nature and physical activity.
+Georg is a **Senior data expert** @Magenta and a ML-ops engineer @ASCII. He is **solving challenges with data**. His interests include geospatial graphs and time series. Georg transitions the data platform of Magenta to the cloud and is handling large scale multi-modal ML-ops challenges at ASCII.
