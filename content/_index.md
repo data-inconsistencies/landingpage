@@ -10,20 +10,21 @@ design:
 sections:
   - block: hero
     content:
-      title: Solving challenges
-      text: with data
+      title: We solve your hardest data challenges
+      text: Georg & Albert design, build and benchmark modern data platforms so you can
+        ship faster, cut cost and sleep better.
       primary_action:
-        text: Explore the ranking
+        text: See the ranking results
         url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
         icon: rocket-launch
       secondary_action:
-        text: Join our stream to learn in-depth insights
+        text: Watch our live deep-dives
         url: https://www.youtube.com/@datainconsistencies
-      # announcement:
-      #   text: "Announcing the release of version 1."
-      #   link:
-      #     text: "Read more"
-      #     url: "/blog/"
+      announcement:
+        text: "NEW: 2025 Cloud Data Platform Benchmark released"
+        link:
+          text: "Read summary"
+          url: "https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -62,8 +63,9 @@ sections:
     id: aboutus
     content:
       items:
-        - title: Albert
-          text: deep technical expertise and go-to-market strategy from both sides of the software ecosystem. I’ve led and contributed in Sales Engineering and Developer Relations roles at high-growth startups and industry leaders
+        - title: Albert Wong
+          text: Sales Engineer & DevRel lead at VC-backed startups.
+            Albert pairs deep technical chops with a proven go-to-market mindset.
           feature_icon: check
           features:
             - business impact
@@ -73,7 +75,7 @@ sections:
           button:
             text: Conncect
             url: https://www.linkedin.com/in/atwong/
-        - title: Georg
+        - title: Dr. Georg 
           text: "[Georg](geoheil.com) is a **Senior data expert** at Magenta and a ML-ops engineer at ASCII. He is **solving challenges with data**. His interests include geospatial graphs and time series. Georg transitions the data platform of Magenta to the cloud and is handling large scale multi-modal ML-ops challenges at ASCII."
           feature_icon: bolt
           features:
@@ -89,9 +91,14 @@ sections:
     content:
       items:
         - title: ELO ranking
-          text: Compare the otherwise really hard to compare performance
+          text: > 
+            Compare the otherwise really hard to compare performance:
+            Apples-to-apples comparisons of query engines, based on publicly
+            reproducible workloads.
           feature_icon: check
           features:
+            - Transparent methodology
+            - Community contributions welcome
             - Plain ELO for binary rankings
             - Enhanced R-ELO for multi-class rankings
             - Matches as observations
@@ -99,7 +106,7 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: ranking-overall.png
           button:
-            text: See the rankings
+            text: Explore the live rankings
             url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
   # - block: cta-image-paragraph
   #   id: datainconsistencies
@@ -164,9 +171,8 @@ sections:
   #     text: ""
   #     items:
   #       - name: "Hugo Smith"
-  #         role: "Marketing Executive at X"
-  #         Upload image to `assets/media/` and reference the filename here
-  #         image: "testimonial-1.jpg"
+  #         role: "Marketing Executive at X" Upload image to `assets/media/` and reference the filename here
+  #         image: "ranking-overall.png"
   #         text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
   #   design:
   #     spacing:
@@ -184,4 +190,17 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
+  # - block: cta-card
+  #   content:
+  #     title: Ready to solve your data challenge?
+  #     text: >
+  #       Book a free 30-minute consultation. We'll review your current stack
+  #       and point you to quick wins—no strings attached.
+  #     button:
+  #       text: Schedule a call
+  #       url: https://calendly.com/geoheil/data-strategy
+  #   design:
+  #     card:
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---
