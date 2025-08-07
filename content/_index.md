@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: We solve your hardest data challenges
-      text: Georg & Albert design, build and benchmark modern data platforms so you can
+      text: Albert & Georg design, build and benchmark modern data platforms so you can
         ship faster, cut cost and sleep better.
       primary_action:
         text: See the ranking results
