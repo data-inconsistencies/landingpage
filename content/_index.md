@@ -121,6 +121,7 @@ sections:
           button:
             text: Conncect
             url: https://www.linkedin.com/in/atwong/
+          text: I'm available to speak at meetups and conferences on the topic of ELO analytics engine rankings. I also offer advisory consulting services for analytics engine selection and strategy.
         - title: Dr. Georg 
           text: "[Georg](geoheil.com) is a **Senior data expert** at Magenta and a ML-ops engineer at ASCII. He is **solving challenges with data**. His interests include geospatial graphs and time series. Georg transitions the data platform of Magenta to the cloud and is handling large scale multi-modal ML-ops challenges at ASCII."
           feature_icon: bolt
