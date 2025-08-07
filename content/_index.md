@@ -81,6 +81,30 @@ sections:
           button:
             text: Explore the live rankings
             url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
+  - block: features
+    id: datainconsistencies
+    content:
+      title: Typical challenges when choosing a data transformation engine
+      text: Benchmarks are misleading. But still we can source some sensible insights from them. We are computing ELO scores to compare the various engines.
+      items:
+        - name: Workload specific
+          icon: magnifying-glass
+          description: Standard benchmarks may [not fit your workload](https://www.onehouse.ai/blog/measuring-etl-price-performance-on-cloud-data-platforms). Understand the concepts and usage patterns.
+        - name: Gamed benchmakrs
+          icon: bolt
+          description: Only trust the statistics you have faked yourself - sometimes it can happen vendors are overly optimizing the benchmarks in their favor
+        - name: Measure
+          icon: sparkles
+          description: Collect the data of the various engines in a way it can becompre comparable.
+        # - name: No-Code
+        #   icon: code-bracket
+        #   description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
+        # - name: Highly Rated
+        #   icon: star
+        #   description: Rated 5-stars by the community.
+        # - name: Swappable Blocks
+        #   icon: rectangle-group
+        #   description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
     id: aboutus
     content:
@@ -141,30 +165,7 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: features
-    id: datainconsistencies
-    content:
-      title: Typical challenges when choosing a data transformation engine
-      text: Benchmarks are misleading. But still we can source some sensible insights from them. We are computing ELO scores to compare the various engines.
-      items:
-        - name: Workload specific
-          icon: magnifying-glass
-          description: Standard benchmarks may [not fit your workload](https://www.onehouse.ai/blog/measuring-etl-price-performance-on-cloud-data-platforms). Understand the concepts and usage patterns.
-        - name: Gamed benchmakrs
-          icon: bolt
-          description: Only trust the statistics you have faked yourself - sometimes it can happen vendors are overly optimizing the benchmarks in their favor
-        - name: Measure
-          icon: sparkles
-          description: Collect the data of the various engines in a way it can becompre comparable.
-        # - name: No-Code
-        #   icon: code-bracket
-        #   description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        # - name: Highly Rated
-        #   icon: star
-        #   description: Rated 5-stars by the community.
-        # - name: Swappable Blocks
-        #   icon: rectangle-group
-        #   description: Build your pages with blocks - no coding required!
+  
   # - block: testimonials
   #   content:
   #     title: ""
