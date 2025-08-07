@@ -110,10 +110,8 @@ sections:
     content:
       items:
         - title: Albert Wong
-          text: Sales Engineer & DevRel leader at VC-backed startups and major technology companies.
-            Albert pairs deep technical chops with a proven go-to-market mindset.
-
-            I'm available to speak at meetups and conferences on the topic of ELO analytics engine rankings. I also offer advisory consulting services for analytics engine selection and strategy.
+          text: Albert is a Sales Engineer and DevRel leader with a unique blend of deep technical knowledge and a proven go-to-market mindset. He has a track record of success at both VC-backed startups and major technology companies.\
+          Albert is available to speak at meetups and conferences on ELO analytics engine rankings and offers advisory consulting for analytics engine selection and strategy.
           feature_icon: check
           features:
             - focused on measurable business impact
