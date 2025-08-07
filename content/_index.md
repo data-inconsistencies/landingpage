@@ -60,6 +60,28 @@ sections:
   #     spacing:
   #       padding: ["1rem", 0, "1rem", 0]
   - block: cta-image-paragraph
+    id: rankingsoverview
+    content:
+      items:
+        - title: ELO ranking
+          text: > 
+            Compare the otherwise really hard to compare performance:
+            Apples-to-apples comparisons of query engines, based on publicly
+            reproducible workloads.
+          feature_icon: check
+          features:
+            - Transparent methodology
+            - Community contributions welcome
+            - Plain ELO for binary rankings
+            - Enhanced R-ELO for multi-class rankings
+            - Matches as observations
+            - We can compare the results from benchmarks from all over the web
+          # Upload image to `assets/media/` and reference the filename here
+          image: ranking-overall.png
+          button:
+            text: Explore the live rankings
+            url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
+  - block: cta-image-paragraph
     id: aboutus
     content:
       items:
@@ -86,28 +108,6 @@ sections:
           button:
             text: Connect
             url: https://www.linkedin.com/in/geoheil/
-  - block: cta-image-paragraph
-    id: rankingsoverview
-    content:
-      items:
-        - title: ELO ranking
-          text: > 
-            Compare the otherwise really hard to compare performance:
-            Apples-to-apples comparisons of query engines, based on publicly
-            reproducible workloads.
-          feature_icon: check
-          features:
-            - Transparent methodology
-            - Community contributions welcome
-            - Plain ELO for binary rankings
-            - Enhanced R-ELO for multi-class rankings
-            - Matches as observations
-            - We can compare the results from benchmarks from all over the web
-          # Upload image to `assets/media/` and reference the filename here
-          image: ranking-overall.png
-          button:
-            text: Explore the live rankings
-            url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
   # - block: cta-image-paragraph
   #   id: datainconsistencies
   #   content:
