@@ -114,7 +114,7 @@ sections:
             Albert pairs deep technical chops with a proven go-to-market mindset.
           feature_icon: check
           features:
-            - business impact
+            - focused on measurable business impact
             - developer with deep data and infrastructure experience
           # Upload image to `assets/media/` and reference the filename here
           image: profile-albert.jpg
