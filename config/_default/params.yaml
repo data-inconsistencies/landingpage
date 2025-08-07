@@ -54,11 +54,11 @@ locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
-features:
-  comment:
-    provider: 'giscus'
-    giscus:
-      repo: 'data-inconsistencies/landingpage-comments'
-      repo_id: 'R_kgDOM_WnDw'
-      category: 'Q&A'
-      category_id: 'DIC_kwDOM_WnD84CjTmS'
+#features:
+#  comment:
+#    provider: 'giscus'
+#    giscus:
+#      repo: 'data-inconsistencies/landingpage-comments'
+#      repo_id: 'R_kgDOM_WnDw'
+#      category: 'Q&A'
+#      category_id: 'DIC_kwDOM_WnD84CjTmS'
