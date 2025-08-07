@@ -110,12 +110,12 @@ sections:
     content:
       items:
         - title: Albert Wong
-          text: Sales Engineer & DevRel lead at VC-backed startups.
+          text: Sales Engineer & DevRel leader at VC-backed startups and major technology companies.
             Albert pairs deep technical chops with a proven go-to-market mindset.
           feature_icon: check
           features:
             - business impact
-            - data experience
+            - developer with deep data and infrastructure experience
           # Upload image to `assets/media/` and reference the filename here
           image: profile-albert.jpg
           button:
