@@ -75,6 +75,9 @@ taxonomies:
   category: categories
   author: authors
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   _merge: deep
   highlight:
     lineNos: false
