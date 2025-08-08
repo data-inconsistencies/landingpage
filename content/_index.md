@@ -67,7 +67,7 @@ sections:
           text: > 
             Compare the otherwise really hard to compare performance:
             Apples-to-apples comparisons of query engines, based on publicly
-            reproducible workloads.
+            reproducible workloads. ![](https://static.scarf.sh/a.png?x-pxid=578d1301-0e72-4879-83e7-f7e7692e7ff5)
           feature_icon: check
           features:
             - Transparent methodology
