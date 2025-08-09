@@ -11,8 +11,7 @@ sections:
   - block: hero
     content:
       title: We solve your hardest data challenges
-      text: Albert & Georg design, build and benchmark modern data platforms so you can
-        ship faster, cut cost and sleep better.
+      text: 
       primary_action:
         text: See the ranking results
         url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
@@ -63,20 +62,16 @@ sections:
     id: rankingsoverview
     content:
       items:
-        - title: Analytics Engine ELO Report: A Dynamic Approach to Comparing Analytics and OLAP Engines 
+        - title: "Analytics Engine ELO Report: A Dynamic Approach to Comparing Analytics and OLAP Engines" 
           text: > 
-            This report outlines the benefits of adopting the Elo rating system as a robust method for evaluating and comparing the performance of various analytics and Online Analytical Processing (OLAP) engines.
-
-Traditional benchmarking often provides a static snapshot of performance, which may not fully capture an engine's capabilities under diverse, real-world conditions. The Elo rating system, originally developed for chess, offers a dynamic and more nuanced alternative.
-
-<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=578d1301-0e72-4879-83e7-f7e7692e7ff5" /> 
+            Traditional benchmarking often provides a static snapshot of performance at a specific point in time and environment. These snapshots cannot be easily compared or even reproduced, even when using similar versions, datasets, instance types, or hardware architectures. Instead, the Elo rating system, originally developed for chess, offers a dynamic and more nuanced alternative. <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=578d1301-0e72-4879-83e7-f7e7692e7ff5" /> 
           feature_icon: check
           features:
-            - Dynamic and Relative Performance Measurement: Unlike fixed benchmarks, the Elo system continuously adjusts an engine's score based on its performance against other engines. This provides a relative measure of strength that evolves as engines are updated or new competitors emerge.
-            - Tournament-Style Head-to-Head Competition: Engines are pitted against each other in a series of competitions on a variety of queries and datasets (TPC-H, TPC-DS, SSB Wide Table). This simulates a real-world environment and highlights how engines perform under different loads and conditions.
-            - Probabilistic Strength Assessment: An engine's Elo score reflects the probability of it winning against another engine. A win against a higher-rated opponent results in a larger score increase, while a loss against a lower-rated opponent leads to a more significant score decrease. This rewards consistent, high-level performance.
-            - Greater Nuance and Insight: The system is excellent for revealing subtle differences in efficiency, latency, and throughput that might be missed in traditional single-metric comparisons. It provides a deeper understanding of an engine's strengths and weaknesses across various workloads.
-            - A "Living" Leaderboard: The Elo ranking creates a dynamic and up-to-date leaderboard, offering a more sophisticated alternative to a simple "faster/slower" comparison. This living document of performance is valuable for both developers and users tracking engine improvements.
+            - "Dynamic and Relative Performance Measurement: Unlike fixed benchmarks, the Elo system continuously adjusts an engine's score based on its performance against other engines. This provides a relative measure of strength that evolves as engines are updated or new competitors emerge."
+            - "Tournament-Style Head-to-Head Competition: Engines are pitted against each other in a series of competitions on a variety of queries and datasets. We only use published TPC-DS, TPC-H and SSB Wide Table so that there a data set base line. This simulates a real-world environment and highlights how engines perform under different loads and conditions."
+            - "Probabilistic Strength Assessment: An engine's Elo score reflects the probability of it winning against another engine. A win against a higher-rated opponent results in a larger score increase, while a loss against a lower-rated opponent leads to a more significant score decrease. This rewards consistent, high-level performance."
+            - "Greater Nuance and Insight: The system is excellent for revealing subtle differences in efficiency, latency, and throughput that might be missed in traditional single-metric comparisons. It provides a deeper understanding of an engine's strengths and weaknesses across various workloads."
+            - "A \"Living\" Leaderboard: The Elo ranking creates a dynamic and up-to-date leaderboard, offering a more sophisticated alternative to a simple \"faster/slower\" comparison. This living document of performance is valuable for both developers and users tracking engine improvements."
           # Upload image to `assets/media/` and reference the filename here
           image: ranking-overall.png
           button:
