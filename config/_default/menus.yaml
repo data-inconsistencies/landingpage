@@ -12,8 +12,8 @@ main:
   - name: Videos
     # TODO migrate to youtube.data-inconsistencies.datajourney.expert once set up properly
     # url: https://www.youtube.com/@datainconsistencies/
-    url: http://youtube.data-inconsistencies.datajourney.expert
-    #url: https://youtube.data-inconsistencies.datajourney.expert
+    # url: http://youtube.data-inconsistencies.datajourney.expert
+    url: https://www.youtube.com/@datainconsistencies
     #url: /#features
     weight: 30
   
