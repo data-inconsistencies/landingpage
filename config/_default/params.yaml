@@ -37,10 +37,10 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "data-inconsistencies-logo.jpg"
-    button:
-      enable: true
-      text: "Get Scores"
-      url: "https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA"
+    # button:
+    #   enable: true
+    #   text: "Get Scores"
+    #   url: "https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA"
     show_search: true
     show_theme_chooser: true
 

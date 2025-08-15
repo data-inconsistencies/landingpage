@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: We provide insights on the hardest data challenges
-      text: 
-      primary_action:
-        text: See the ranking results
-        url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
-        icon: rocket-launch
-      secondary_action:
-        text: Watch our live deep-dives
-        url: https://www.youtube.com/@datainconsistencies
-      announcement:
-        text: "NEW: 2025 Cloud Data Platform Benchmark released"
-        link:
-          text: "Read summary"
-          url: "https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing"
+      title: Battle of the Analytics Engines
+      text: We rank OLAP and analytics engines using every public benchmark—messy or not—powered by ELO ratings. See the winners, track the history, and add your own results to shape the leaderboard.
+#      primary_action:
+#        text: See the ranking results
+#        url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
+#        icon: rocket-launch
+#      secondary_action:
+#        text: Watch our live deep-dives
+#        url: https://www.youtube.com/@datainconsistencies
+#      announcement:
+#        text: "NEW: 2025 Analytics Engine ELO Report released"
+#        link:
+#          text: "Read summary"
+#          url: "https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -58,49 +58,78 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: ["1rem", 0, "1rem", 0]
+#   - block: features
+#     id: datainconsistencies
+#     content:
+#       title: "Project: Typical challenges when choosing a data transformation engine"
+#       text: Benchmarks are misleading. But still we can source some sensible insights from them. We are computing ELO scores to compare the various engines.
+#       items:
+#         - name: Use public performance tests
+#           icon: magnifying-glass
+# #          description: Standard benchmarks may [not fit your workload](https://www.onehouse.ai/blog/measuring-etl-price-performance-on-cloud-data-platforms). Understand the concepts and usage patterns.
+#           description: Assume all public performance tests are true.  TPC-DS, TPC-H and SSB Wide table are better but accept the ones that aren't. Collect them all.  Add your performance report by publishing it publically on the web and email atwong@protonmail.com to add it to the ELO rankings. Allow backdated performance reports. 
+#         - name: Project vs. Product. OLAP vs. Analytics Engines.  
+#           icon: bolt
+#           description: Have all the products battle each other in matches.  Sometimes it's 1v1 and in other times in 3 or 4 products being compared in the match.  Doesn't matter, use ELO to determine who is better.
+#         - name: See the data and Add more reports
+#           icon: sparkles
+#           description: See who are the players (analytics engines, OLAP engines, open source projects, open core, closed source, or their commerical equivlants). See a historical view of players and their matches. Allow you to sort the data. 
+#         # - name: Add more reports
+#         #  icon: code-bracket
+#         #  description: Add your performance report by publishing it publically on the web and email atwong@protonmail.com to add it to the ELO rankings. Allow backdated performance reports. 
+#         # - name: Highly Rated
+#         #   icon: star
+#         #   description: Rated 5-stars by the community.
+#         # - name: Swappable Blocks
+#         #   icon: rectangle-group
+#         #   description: Build your pages with blocks - no coding required!
+  # - block: cta-image-paragraph
+  #   id: rankingsoverview
+  #   content:
+  #     items:
+  #       - title: "Analytics Engine ELO Report: A Dynamic Approach to Comparing Analytics and OLAP Engines" 
+  #         text: > 
+  #           Traditional benchmarking often provides a static snapshot of performance at a specific point in time and environment. These snapshots cannot be easily compared or even reproduced, even when using similar versions, datasets, instance types, or hardware architectures. Instead, the ELO rating system, originally developed for chess, offers a dynamic and more nuanced alternative. <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=578d1301-0e72-4879-83e7-f7e7692e7ff5" /> 
+  #         feature_icon: check
+  #         features:
+  #           - "Dynamic and Relative Performance Measurement: Unlike fixed benchmarks, the ELO system continuously adjusts an engine's score based on its performance against other engines. This provides a relative measure of strength that evolves as engines are updated or new competitors emerge."
+  #           - "Tournament-Style Head-to-Head Competition: Engines are pitted against each other in a series of competitions on a variety of queries and datasets. This simulates a real-world environment and highlights how engines perform under different loads and conditions."
+  #           - "Probabilistic Strength Assessment: An engine's ELO score reflects the probability of it winning against another engine. A win against a higher-rated opponent results in a larger score increase, while a loss against a lower-rated opponent leads to a more significant score decrease. This rewards consistent, high-level performance."
+  #           - "Greater Nuance and Insight: The system is excellent for revealing subtle differences in efficiency, latency, and throughput that might be missed in traditional single-metric comparisons. It provides a deeper understanding of an engine's strengths and weaknesses across various workloads."
+  #           - "A \"Living\" Leaderboard: The ELO ranking creates a dynamic and up-to-date leaderboard, offering a more sophisticated alternative to a simple \"faster/slower\" comparison. This living document of performance is valuable for both developers and users tracking engine improvements."
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: ranking-overall.png
+  #         button:
+  #           text: Explore the live rankings
+  #           url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
   - block: cta-image-paragraph
     id: rankingsoverview
     content:
       items:
-        - title: "Analytics Engine ELO Report: A Dynamic Approach to Comparing Analytics and OLAP Engines" 
-          text: > 
-            Traditional benchmarking often provides a static snapshot of performance at a specific point in time and environment. These snapshots cannot be easily compared or even reproduced, even when using similar versions, datasets, instance types, or hardware architectures. Instead, the ELO rating system, originally developed for chess, offers a dynamic and more nuanced alternative. <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=578d1301-0e72-4879-83e7-f7e7692e7ff5" /> 
-          feature_icon: check
-          features:
-            - "Dynamic and Relative Performance Measurement: Unlike fixed benchmarks, the ELO system continuously adjusts an engine's score based on its performance against other engines. This provides a relative measure of strength that evolves as engines are updated or new competitors emerge."
-            - "Tournament-Style Head-to-Head Competition: Engines are pitted against each other in a series of competitions on a variety of queries and datasets. This simulates a real-world environment and highlights how engines perform under different loads and conditions."
-            - "Probabilistic Strength Assessment: An engine's ELO score reflects the probability of it winning against another engine. A win against a higher-rated opponent results in a larger score increase, while a loss against a lower-rated opponent leads to a more significant score decrease. This rewards consistent, high-level performance."
-            - "Greater Nuance and Insight: The system is excellent for revealing subtle differences in efficiency, latency, and throughput that might be missed in traditional single-metric comparisons. It provides a deeper understanding of an engine's strengths and weaknesses across various workloads."
-            - "A \"Living\" Leaderboard: The ELO ranking creates a dynamic and up-to-date leaderboard, offering a more sophisticated alternative to a simple \"faster/slower\" comparison. This living document of performance is valuable for both developers and users tracking engine improvements."
-          # Upload image to `assets/media/` and reference the filename here
+        - title: Who’s the Best Data Analytics Engine? Let’s Find Out.
+          text: | 
+            Benchmarks lie. But if we collect all of them, a clearer picture emerges.  </br>
+
+            We use **ELO rankings**—the same system used in chess—to pit analytics and OLAP engines against each other, track their wins, and see who really dominates.</br></br>
+
+
+            **How it works:** </br>
+                1. We grab every public performance test (TPC-DS, TPC-H, SSB Wide Table, and more—even the messy ones).</br>
+                2. We turn results into “matches” — sometimes 1-on-1, sometimes 3- or 4-way battles.</br>
+                3. The ELO system updates the rankings after every match.
+            </br></br>
+
+            **Get Involved:**</br>
+                - See the full leaderboard and historical performance.</br>
+                - Sort and explore engines by data workload: TPC-DS, TPC-H, SSB Wide Table or others.</br>
+                - Got results? Publish them online and email <a href="mailto:atwong@alumni.uci.edu">atwong@alumni.uci.edu</a> — we’ll add them (even backdated ones) to the rankings.
+            </br></br>
+
+            ***The game is on.***
           image: ranking-overall.png
           button:
             text: Explore the live rankings
-            url: https://docs.google.com/spreadsheets/d/1Y1Oxw_2LBWd502JtWFFyef2y5TvOyQMkq156cDrKJbA/edit?usp=sharing
-  - block: features
-    id: datainconsistencies
-    content:
-      title: "Project: Typical challenges when choosing a data transformation engine"
-      text: Benchmarks are misleading. But still we can source some sensible insights from them. We are computing ELO scores to compare the various engines.
-      items:
-        - name: Workload specific
-          icon: magnifying-glass
-          description: Standard benchmarks may [not fit your workload](https://www.onehouse.ai/blog/measuring-etl-price-performance-on-cloud-data-platforms). Understand the concepts and usage patterns.
-        - name: Gamed benchmarks
-          icon: bolt
-          description: Only trust the statistics you have faked yourself - sometimes it can happen vendors are overly optimizing the benchmarks in their favor
-        - name: Measure
-          icon: sparkles
-          description: Collect the data of the various engines in a way it can becompre comparable.
-        # - name: No-Code
-        #   icon: code-bracket
-        #   description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        # - name: Highly Rated
-        #   icon: star
-        #   description: Rated 5-stars by the community.
-        # - name: Swappable Blocks
-        #   icon: rectangle-group
-        #   description: Build your pages with blocks - no coding required!
+            url: https://rankade.com/olap-database-tpc-h/        
   - block: cta-image-paragraph
     id: aboutus
     content:
@@ -114,7 +143,7 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: profile-albert.jpg
           button:
-            text: Conncect
+            text: Connect
             url: https://www.linkedin.com/in/atwong/
         - title: Dr. Georg 
           text: "[Georg](geoheil.com) is a **Senior data expert** at Magenta and a ML-ops engineer at ASCII. He is **solving challenges with data**. His interests include geospatial graphs and time series. Georg transitions the data platform of Magenta to the cloud and is handling large scale multi-modal ML-ops challenges at ASCII."
@@ -188,9 +217,11 @@ sections:
   #       css_style: ""
   - block: cta-card
     content:
-      title: Want to go deeper?
+      title: Want to dig deeper?
       text: >
-        Schedule a free 30-minute consultation to help you choose the best analytics engine for your needs. </br></br>During our meeting, we'll go beyond performance metrics to discuss the pros and cons of different engines and help you interpret the analytics engine ELO ranking. We can even add your own benchmarks to see how they impact the rankings.
+        Book a 30-minute consultation to learn our methodology and how the rankings were built. </br></br>
+        
+        In this session, we’ll move beyond raw performance metrics—breaking down the strengths and trade-offs of each engine and unpacking the ELO ranking system. You can even bring your own unpublished benchmarks to see how they shift the results.
       button:
         text: Schedule a call
         url: https://calendly.com/geoheil/data-strategy
