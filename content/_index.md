@@ -129,7 +129,7 @@ sections:
           image: ranking-overall.png
           button:
             text: Explore the live rankings
-            url: https://rankade.com/olap-database-tpc-h/        
+            url: https://linkly.link/2DXzx     
   - block: cta-image-paragraph
     id: aboutus
     content:
