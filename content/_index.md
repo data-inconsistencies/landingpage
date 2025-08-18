@@ -37,17 +37,6 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: carousel
-    id: testimonials-carousel
-    content:
-      items: 1
-      #height: 400
-      #unit: "px"
-      #duration: 8
-    # design:
-    #   spacing:
-    #     padding: ["4rem", 0, "4rem", 0]
-    #   css_class: "bg-gray-100 dark:bg-gray-900"
   # - block: stats
   #   content:
   #     items:
