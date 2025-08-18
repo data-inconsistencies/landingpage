@@ -1,0 +1,63 @@
+{{/*
+  CORRECTED v2 Carousel Block for Hugo Blox
+  This version re-adds the style attribute for height and is compatible with a scrolling carousel.
+*/}}
+{{/* layouts/partials/hooks/body-end/custom.html */}}
+
+{{/* Load the custom JavaScript for the carousel */}}
+<script src="/carousel.js"></script>
+{{ $block := .Block }}
+{{/* Use the block's `id` from frontmatter, or default to a safe 'carousel' string */}}
+{{ $id := $block.id | default "carousel" }}
+
+{{ $height := $block.content.height | default "400" }}
+{{ $unit := $block.content.unit | default "px" }}
+{{ $items_per_slide := $block.content.items | default "1" }}
+{{ $duration := $block.content.duration | default "7000" }}
+
+{{ $carousel_data := "" }}
+{{ $data_file := resources.Get "carousel.yaml" }}
+{{ if $data_file }}
+  {{ $carousel_data = $data_file | transform.Unmarshal }}
+{{ else }}
+  {{ warnf "Carousel data file not found at assets/carousel.yaml" }}
+{{ end }}
+
+<div class="container-fluid">
+  <div id="{{ $id }}" class="carousel" duration="{{ $duration }}" items="{{ $items_per_slide }}">
+    <ul>
+      {{ if and $carousel_data $carousel_data.images }}
+        {{ range $index, $slide := $carousel_data.images }}
+          {{/*
+            THIS IS THE CRUCIAL FIX. The `style` attribute is required to give the slide
+            a height before the image loads, preventing it from collapsing. The `padding-bottom`
+            trick is what creates the aspect ratio container for the image.
+          */}}
+          <li id="{{ $id }}-slide{{ add $index 1 }}" style="padding-bottom: {{ $height }}{{ $unit }};">
+            {{ $img := resources.Get $slide.image }}
+            {{ if $img }}
+              {{ $image_resized := $img.Resize "1600x q75" }}
+              <img src="{{ $image_resized.RelPermalink }}"
+                   class="carousel-img"
+                   alt="{{ $slide.content_html | plainify }}"
+                   loading="lazy" />
+            {{ else }}
+              {{ warnf "Carousel image not found at assets/%s" $slide.image }}
+            {{ end }}
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+    <ol>
+      {{ if and $carousel_data $carousel_data.images }}
+        {{ range $index, $slide := $carousel_data.images }}
+          <li>
+            <a href="#{{ $id }}-slide{{ add $index 1 }}"></a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ol>
+    <div class="prev">&lsaquo;</div>
+    <div class="next">&rsaquo;</div>
+  </div>
+</div>

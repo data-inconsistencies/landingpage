@@ -1,0 +1,5 @@
+images: 
+  - image: media/profile-albert.jpg
+    content_html: ""
+  - image: media/profile-georg.jpg
+    ontent_html: "<h3>ELO Rankings</h3><p>A dynamic approach to comparing analytics engines.</p>"
