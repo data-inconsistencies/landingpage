@@ -4,10 +4,5 @@ date: 2024-10-10
 share: false
 ---
 
-We do not collect any data here.
-Only technically relevant cookies are set.
-
-If you open content pages like youtube, tiktok, ... where videos and streams are hosted 3rd party platforms may collect massive data about you.
-
-If you open these links you agree to their terms and conditions.
+We use essential cookies to make this site work and, with your consent, analytics (Google Analytics) and marketing/CRM cookies (HubSpot, Brevo). Some pages include links or embedded content from Google Docs, YouTube, Calendly, or LinkedIn. If you interact with that content, those providers’ terms and cookies apply.
 

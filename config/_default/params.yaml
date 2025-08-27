@@ -55,7 +55,9 @@ locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
-#features:
+features:
+  privacy_pack:
+    enable: true
 #  comment:
 #    provider: 'giscus'
 #    giscus:
