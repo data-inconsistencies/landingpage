@@ -129,7 +129,7 @@ sections:
           image: ranking-overall.png
           button:
             text: Explore the live rankings
-            url: https://linkly.link/2DXzx     
+            url: https://rebrand.ly/e0rq2li     
   - block: cta-image-paragraph
     id: aboutus
     content:
